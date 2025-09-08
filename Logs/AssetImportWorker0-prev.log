@@ -1,0 +1,1545 @@
+Unity Editor version:    2022.3.11f1 (d00248457e15)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.6.1 (Build 24G90)
+Darwin version:          24.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/kevintessicini/Desktop/GDD 410/One Button
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57980
+Successfully changed project path to: /Users/kevintessicini/Desktop/GDD 410/One Button
+/Users/kevintessicini/Desktop/GDD 410/One Button
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8779997696] Host "[IP] 10.111.11.90 [Port] 0 [Flags] 2 [Guid] 574395498 [EditorId] 574395498 [Version] 1048832 [Id] OSXEditor(0,Kevins-MacBook-Pro-7.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8779997696] Host "[IP] 10.111.11.90 [Port] 0 [Flags] 2 [Guid] 574395498 [EditorId] 574395498 [Version] 1048832 [Id] OSXEditor(0,Kevins-MacBook-Pro-7.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Refreshing native plugins compatible for Editor in 10.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kevintessicini/Desktop/GDD 410/One Button/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56570
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002870 seconds.
+- Loaded All Assemblies, in  0.642 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.996 seconds
+Domain Reload Profiling: 1639ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (154ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (997ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (848ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (570ms)
+			ProcessInitializeOnLoadMethodAttributes (229ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.080 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.871 seconds
+Domain Reload Profiling: 2954ms
+	BeginReloadAssembly (331ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (567ms)
+		LoadAssemblies (485ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1873ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (1194ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3282 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (51.3 KB). Loaded Objects now: 3744.
+Memory consumption went from 132.2 MB to 132.2 MB.
+Total: 3.264584 ms (FindLiveObjects: 0.156917 ms CreateObjectMapping: 0.080084 ms MarkObjects: 2.883125 ms  DeleteObjects: 0.142791 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 375858.116420 seconds.
+  path: Assets/WallsMat.mat
+  artifactKey: Guid(2fca80b837df047fd9cbd520bbf39677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WallsMat.mat using Guid(2fca80b837df047fd9cbd520bbf39677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314e078629c9f1e5fdd7a5600cf9e2db') in 0.291265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 930.599480 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks
+  artifactKey: Guid(50554e061d2994aceb2bc04bc19b7b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks using Guid(50554e061d2994aceb2bc04bc19b7b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e28eab6827669f777e8d247eeda27bf') in 0.001679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.447150 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/source
+  artifactKey: Guid(75af7cb482ca54c98bd40eee94ff8997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/source using Guid(75af7cb482ca54c98bd40eee94ff8997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf22fa1acd1184ce423ccd3d2bb75b73') in 0.001446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.180491 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/source/model.fbx
+  artifactKey: Guid(f49606e3a15ac4059bce1bfe636a0bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/source/model.fbx using Guid(f49606e3a15ac4059bce1bfe636a0bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf103b86ef8db094018c004ff348fee9') in 0.289542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 17.870804 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures
+  artifactKey: Guid(61dba2dfbfc164f82b7cd0e8a75bde9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures using Guid(61dba2dfbfc164f82b7cd0e8a75bde9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28401ba6ffa6f1074606b9714bfea5df') in 0.001742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050211 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_1_albedo.jpeg
+  artifactKey: Guid(f59cb8f41563d4996837e6a48ddc393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_1_albedo.jpeg using Guid(f59cb8f41563d4996837e6a48ddc393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a416e26e1c4576d3b4d8a65e13c951b6') in 0.039456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Kolbasa_cutted_AO.jpeg
+  artifactKey: Guid(40b9813246a174a519d835506ee9ccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Kolbasa_cutted_AO.jpeg using Guid(40b9813246a174a519d835506ee9ccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff01098e9a07dac5b778aac12caed79') in 0.008513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Sedushka_metallic.jpeg
+  artifactKey: Guid(4c3ab0ab7f9774d7eb46f6413ab8b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Sedushka_metallic.jpeg using Guid(4c3ab0ab7f9774d7eb46f6413ab8b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13f721044595ab9f6a83efdb0c47e35') in 0.006775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Metal_kolbasa_metallic.jpeg
+  artifactKey: Guid(d79d9f59d6e9c46408c1230a87bbd75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Metal_kolbasa_metallic.jpeg using Guid(d79d9f59d6e9c46408c1230a87bbd75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fb12ca278171acc1404dcf3e886b74') in 0.006596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Peel_albedo.jpeg
+  artifactKey: Guid(0f80985759f5f400dbaf320c5c4e3b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Peel_albedo.jpeg using Guid(0f80985759f5f400dbaf320c5c4e3b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7481291d16269e536bfe82aaabaa4c48') in 0.007795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_1_roughness.jpeg
+  artifactKey: Guid(2c98b3077d562410dabdb90a664ee166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_1_roughness.jpeg using Guid(2c98b3077d562410dabdb90a664ee166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7e9033ffef080de8df9fac517cd6d2') in 0.007597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Doski_metallic.jpg
+  artifactKey: Guid(eaacbbee1758e4547a094a612ccd5bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Doski_metallic.jpg using Guid(eaacbbee1758e4547a094a612ccd5bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c379991cd4ab411b18b35fbb5320832') in 0.006139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Doski_albedo.jpg
+  artifactKey: Guid(ad3ff7a59f11d49b8983b649b315e617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Doski_albedo.jpg using Guid(ad3ff7a59f11d49b8983b649b315e617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4c5859242903d03420d930a26c5a73') in 0.007646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Doski_AO.jpg
+  artifactKey: Guid(9bbb07b7113df4b5fac50726c89e1bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Doski_AO.jpg using Guid(9bbb07b7113df4b5fac50726c89e1bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ed6f9beac5dd9a051bef14d91eeb16') in 0.007084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_007_metallic.jpeg
+  artifactKey: Guid(de93a665e734d4f7c9d885a124a0fbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_007_metallic.jpeg using Guid(de93a665e734d4f7c9d885a124a0fbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20619bc828d07b9eb37628333b7a78e9') in 0.007184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Kolbasa_cutted_normal.png
+  artifactKey: Guid(734a43c6ca3b544919853a3f45d8e944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Kolbasa_cutted_normal.png using Guid(734a43c6ca3b544919853a3f45d8e944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080cfa5b53f016bb711a085b07fd1651') in 0.007382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_006_metallic.jpeg
+  artifactKey: Guid(f414731e942c54846a0f4839c1cb0b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_006_metallic.jpeg using Guid(f414731e942c54846a0f4839c1cb0b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c7ca3f333ab6a7979f1a89fed660e4') in 0.007241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Metal_kolbasa_albedo.jpeg
+  artifactKey: Guid(bc620ab1c01e34360950c8294ca34880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Metal_kolbasa_albedo.jpeg using Guid(bc620ab1c01e34360950c8294ca34880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b9c38fdc40ca94483bc01e2716bf03') in 0.012918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Peel_normal.png
+  artifactKey: Guid(b8acd15bb265a4c9cb579513cd2422b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Peel_normal.png using Guid(b8acd15bb265a4c9cb579513cd2422b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6850b6ee96d964f805e2b974cf99e794') in 0.007697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Vodka_Glass_Bottle_roughness.jpeg
+  artifactKey: Guid(4bf96f85ac60a4302b98def9aa322583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Vodka_Glass_Bottle_roughness.jpeg using Guid(4bf96f85ac60a4302b98def9aa322583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59021c382c3f1dd2187c878a4440ae4') in 0.008032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Fanera_roughness.jpeg
+  artifactKey: Guid(7af664f589d2f43b79a8865d477b0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Fanera_roughness.jpeg using Guid(7af664f589d2f43b79a8865d477b0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8754a57c57c87945b017bfa5f2e28b') in 0.006118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_1_normal.png
+  artifactKey: Guid(d19e0aceba378472d88b4c38a0b9947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_1_normal.png using Guid(d19e0aceba378472d88b4c38a0b9947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbe869cca0bd6e96f4b79209e5de9ce') in 0.007121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Nojki_metal_albedo.jpeg
+  artifactKey: Guid(5dd973185ecb0487982923319fbdb660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Nojki_metal_albedo.jpeg using Guid(5dd973185ecb0487982923319fbdb660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1833f0eb81fb7ff0e1f833c3f4d76043') in 0.006658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Plate_material_normal.png
+  artifactKey: Guid(714696645a4ed41e7a186fa983a0f437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Plate_material_normal.png using Guid(714696645a4ed41e7a186fa983a0f437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1579efbe4a1fd40855b24bb12541ea88') in 0.006719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Metal_kolbasa_normal.png
+  artifactKey: Guid(efaef26a1b19c48cb8dc3f4e0c7394c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Metal_kolbasa_normal.png using Guid(efaef26a1b19c48cb8dc3f4e0c7394c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33f59198ff836f6a3f2b6914cb0f6b9') in 0.008156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_005_metallic.jpeg
+  artifactKey: Guid(0d3f43160c94e452489d349bde956aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_005_metallic.jpeg using Guid(0d3f43160c94e452489d349bde956aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f9936e802a3cd32afe7073276ae343') in 0.006893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Fanera_normal.png
+  artifactKey: Guid(5800f7b72cc20461abffa8ff8db9a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Fanera_normal.png using Guid(5800f7b72cc20461abffa8ff8db9a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5ee216d235e731d0c17484f56fe278') in 0.006823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Kolbasa_cutted_roughness.jpeg
+  artifactKey: Guid(559cf77f2fc8b42b1ae4c0c8a493d37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Kolbasa_cutted_roughness.jpeg using Guid(559cf77f2fc8b42b1ae4c0c8a493d37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cba5d1afc8b52957e04426d4ec4bfa8') in 0.006632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_003_roughness.jpeg
+  artifactKey: Guid(4ad4adede10d44a24840296aa6f289c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_003_roughness.jpeg using Guid(4ad4adede10d44a24840296aa6f289c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df05c459527cd12f1ba8bb8909e434c4') in 0.007798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Nojki_AO.jpg
+  artifactKey: Guid(527317283cd144b9db34442309dfa1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Nojki_AO.jpg using Guid(527317283cd144b9db34442309dfa1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4364e3c4d2dca47b72080a5fa7f77a0d') in 0.006280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Sedushka_albedo.jpeg
+  artifactKey: Guid(81c9664c874e14f07947442a6bc229b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Sedushka_albedo.jpeg using Guid(81c9664c874e14f07947442a6bc229b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e347b90ac95225b7958b95ef2c63f4') in 0.006653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_006_roughness.jpeg
+  artifactKey: Guid(8c7abcbb3eb064181befd11dfd735fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_006_roughness.jpeg using Guid(8c7abcbb3eb064181befd11dfd735fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268709929802548969ff830184505b0d') in 0.007457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Vodla_Logo_albedo.jpeg
+  artifactKey: Guid(97f43155dd1ea4eafbaba7d34e32d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Vodla_Logo_albedo.jpeg using Guid(97f43155dd1ea4eafbaba7d34e32d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6919afa4ec25a7106033dc6fb2c383e') in 0.012734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Plate_material_roughness.jpeg
+  artifactKey: Guid(22222d9835fc54790a6d5806542facd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Plate_material_roughness.jpeg using Guid(22222d9835fc54790a6d5806542facd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7255093881bdea0e698a0e17b430630f') in 0.006973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_2_normal.png
+  artifactKey: Guid(01c692e0004ae403f98bfc619333f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_2_normal.png using Guid(01c692e0004ae403f98bfc619333f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ef54fc20ee4c3372235c94b069b026') in 0.007102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Nojki_metal_normal.png
+  artifactKey: Guid(1a2ace47a89514d66808cf77ffb2e19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Nojki_metal_normal.png using Guid(1a2ace47a89514d66808cf77ffb2e19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e82f184da7565c01012d3c0fc786858') in 0.006493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_001_albedo.jpeg
+  artifactKey: Guid(b8ae04276b2ec4d03ba38a1693ef71c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_001_albedo.jpeg using Guid(b8ae04276b2ec4d03ba38a1693ef71c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd7cf572cc1b00a0192e1164669e839') in 0.007000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_004_opacity.jpeg
+  artifactKey: Guid(b21af1c0c0fc642c2a7c70a8b81f9661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_004_opacity.jpeg using Guid(b21af1c0c0fc642c2a7c70a8b81f9661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c97386c60103fbc9c016204f9a18035') in 0.008885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Table_Up_normal.png
+  artifactKey: Guid(6e80410728aae4f26a58bdee291ed57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Table_Up_normal.png using Guid(6e80410728aae4f26a58bdee291ed57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab2bb0a668114301c6fc36a44b5e325') in 0.006565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_001_roughness.jpeg
+  artifactKey: Guid(25b2423ea42144a9fb94405d46b031af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_001_roughness.jpeg using Guid(25b2423ea42144a9fb94405d46b031af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3359e2a6df0f30473918d93da0648dc1') in 0.007779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Peel_roughness.jpeg
+  artifactKey: Guid(7e32a8fbca7714e33b65fb8073a872e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Peel_roughness.jpeg using Guid(7e32a8fbca7714e33b65fb8073a872e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698129106ba8bfaad1dfdb0c92e2b283') in 0.011795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Sedushka_normal.png
+  artifactKey: Guid(4d5b007ba4f9443f38b71ed5eccae08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Sedushka_normal.png using Guid(4d5b007ba4f9443f38b71ed5eccae08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9af8185bdaa6c41ca525ebbea4fb4b') in 0.007055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_003_albedo.jpeg
+  artifactKey: Guid(d5830dfaddf804c6e9ac13050b0d58ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_003_albedo.jpeg using Guid(d5830dfaddf804c6e9ac13050b0d58ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4348b065cf32a006e2025fd16b06936b') in 0.006007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Vodka_Glass_Bottle_metallic.jpeg
+  artifactKey: Guid(f0ed8184cec7b4ef495880e576b8e46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Vodka_Glass_Bottle_metallic.jpeg using Guid(f0ed8184cec7b4ef495880e576b8e46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1605d73f41266d0f2860cef5c5bffc12') in 0.006351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Sedushka_roughness.jpeg
+  artifactKey: Guid(4a629692830ef4a5ea3667f3acb0323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Sedushka_roughness.jpeg using Guid(4a629692830ef4a5ea3667f3acb0323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709037e6c18761bdf6b5870ac382d1e1') in 0.008702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Table_Up_roughness.jpg
+  artifactKey: Guid(dbe395a771596443188f03ee23ac637b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Table_Up_roughness.jpg using Guid(dbe395a771596443188f03ee23ac637b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e012bb6ce3a51890d853617ffad9cc6') in 0.006857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_2_albedo.jpeg
+  artifactKey: Guid(dffe83d184767443dac26f4b0740cb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_2_albedo.jpeg using Guid(dffe83d184767443dac26f4b0740cb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9c1fb1f602d38f28b090e55b6f8d4a') in 0.005783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_007_roughness.jpeg
+  artifactKey: Guid(4cec0ed857270462aa6464c7aea12c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_007_roughness.jpeg using Guid(4cec0ed857270462aa6464c7aea12c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9045dc1ee76a7a3dcac9ae72810a7c92') in 0.011728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_2_roughness.jpeg
+  artifactKey: Guid(0cf9c2da8fdc949a9936ce5ad295549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Cut_side_2_roughness.jpeg using Guid(0cf9c2da8fdc949a9936ce5ad295549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55983a7caf0f15d9495c73e667709d05') in 0.006583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_005_normal.png
+  artifactKey: Guid(7bd96be5a1bfb420b9347900535569b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_005_normal.png using Guid(7bd96be5a1bfb420b9347900535569b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4efd9ee3f63f049fd5348abb66bc77') in 0.006582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Metal_kolbasa_roughness.jpeg
+  artifactKey: Guid(76cfb6e3b28a8444ea1ed4fe4fe6884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Metal_kolbasa_roughness.jpeg using Guid(76cfb6e3b28a8444ea1ed4fe4fe6884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03aae5fff9e749e09b44385b4ec1677f') in 0.007886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Plate_material_albedo.jpeg
+  artifactKey: Guid(a1007963a680d4e8c9a3335c0e24fea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Plate_material_albedo.jpeg using Guid(a1007963a680d4e8c9a3335c0e24fea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e94e110fb495c88ef2c0c19bea3393') in 0.006780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Nojki_albedo.jpg
+  artifactKey: Guid(b0bf899d28d504020aa64ce10b3560ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Nojki_albedo.jpg using Guid(b0bf899d28d504020aa64ce10b3560ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2d28c7259a4b4fe1a4429794d4eed3') in 0.006967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_003_normal.png
+  artifactKey: Guid(949fa5788da614edb8bb28a690f2b545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_003_normal.png using Guid(949fa5788da614edb8bb28a690f2b545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74af3246c162a3b15c00f8e1c99ca537') in 0.006393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Metal_kolbasa_AO.jpeg
+  artifactKey: Guid(60c7872df1ea047eab241fd4add3926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Metal_kolbasa_AO.jpeg using Guid(60c7872df1ea047eab241fd4add3926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3424a3fb637e354b39d4ca319dd330a') in 0.008932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Nojki_metallic.jpg
+  artifactKey: Guid(e23ecd72dc1d5417f8ef40fe11900ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Nojki_metallic.jpg using Guid(e23ecd72dc1d5417f8ef40fe11900ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cce8cad3d0bca47b76e34d6c30b4be') in 0.005905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_004_metallic.jpeg
+  artifactKey: Guid(0ba830a50ad6d4902b79803789698947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_004_metallic.jpeg using Guid(0ba830a50ad6d4902b79803789698947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad76409f9eb72c8f2335280de4fc28cf') in 0.006872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Kolbasa_cutted_albedo.jpeg
+  artifactKey: Guid(69cef284e89b0404588e7bd1d27ba3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Kolbasa_cutted_albedo.jpeg using Guid(69cef284e89b0404588e7bd1d27ba3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ef86d9ed90a6cdd6c2de2cb86057f2') in 0.010475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_004_albedo.jpeg
+  artifactKey: Guid(1ec7379eab6e2479dbf473f8f28372bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_004_albedo.jpeg using Guid(1ec7379eab6e2479dbf473f8f28372bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8061f6daa962db87c2b36cb77ac3aefa') in 0.006067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_001_normal.png
+  artifactKey: Guid(b7973028a9e8b491e811e79e25107fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_001_normal.png using Guid(b7973028a9e8b491e811e79e25107fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7188881c6ad27a1fff21c0113f8fed') in 0.006915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Kolbasa_peel_metallic.jpeg
+  artifactKey: Guid(c31b191f5215a45d6b87202d8ed25553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Kolbasa_peel_metallic.jpeg using Guid(c31b191f5215a45d6b87202d8ed25553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74c9e2921bf87e75c25670c44672dd0') in 0.008579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_003_opacity.jpeg
+  artifactKey: Guid(81db3a80e47be487093028eb8bc7084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Material_003_opacity.jpeg using Guid(81db3a80e47be487093028eb8bc7084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf355be1062bb98c53ae358b81a8e0f') in 0.006415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.764927 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Vodla_Logo_metallic.jpeg
+  artifactKey: Guid(3f4131d92cb964f5582af6f6772c0d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Vodla_Logo_metallic.jpeg using Guid(3f4131d92cb964f5582af6f6772c0d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2ba68fb45d2559fe09b34756eb8d8b') in 0.007862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Wood_normal.png
+  artifactKey: Guid(d2767a5452326418a8bafcc53b5da02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Wood_normal.png using Guid(d2767a5452326418a8bafcc53b5da02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb54b80609ab8a8a1b9f16473628449') in 0.012491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Wood_albedo.jpeg
+  artifactKey: Guid(1aae692c197984842b5c1d39a91e8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Wood_albedo.jpeg using Guid(1aae692c197984842b5c1d39a91e8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a248371066abaa74bdc5ca25717de5') in 0.007906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Wood_metallic.jpeg
+  artifactKey: Guid(b0f3f92d16c5e486c8dbc28134e8b687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/textures/Wood_metallic.jpeg using Guid(b0f3f92d16c5e486c8dbc28134e8b687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39dc07bf46d23e364f0fc2d15c7230c') in 0.009602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 73.734746 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/Materials
+  artifactKey: Guid(9334ccff3588447ca9408210a86ff98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/Materials using Guid(9334ccff3588447ca9408210a86ff98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee32a82fa3039d5a9798246ea9318db') in 0.001007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.786380 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/Materials/Cut_side_1_albedo.mat
+  artifactKey: Guid(2d3c60600d97e40799b5af9feb221760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/Materials/Cut_side_1_albedo.mat using Guid(2d3c60600d97e40799b5af9feb221760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13d058e5be3759ee6409677a4382ddd') in 0.017824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/soviet-dinner-table-asset-with-food-and-drinks/Materials/Doski_albedo.mat
+  artifactKey: Guid(8e2793f4d850f4619a5f305e8e889bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soviet-dinner-table-asset-with-food-and-drinks/Materials/Doski_albedo.mat using Guid(8e2793f4d850f4619a5f305e8e889bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409f25ac5c3cc6695f6d378ba9a82e5d') in 0.009212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 118.946949 seconds.
+  path: Assets/japanese-dinner
+  artifactKey: Guid(974388ac3fd4247999a53dd89050844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/japanese-dinner using Guid(974388ac3fd4247999a53dd89050844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3675b2cfb8ce34a7b6feec95e9b596') in 0.001444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.219688 seconds.
+  path: Assets/japanese-dinner/source
+  artifactKey: Guid(033780ac1d067436c825ad06c832906d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/japanese-dinner/source using Guid(033780ac1d067436c825ad06c832906d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1b75941928f68b3550d5d095eff290') in 0.001226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.172048 seconds.
+  path: Assets/japanese-dinner/source/Mirror.zip
+  artifactKey: Guid(5a9941209afe84acd908db124540e550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/japanese-dinner/source/Mirror.zip using Guid(5a9941209afe84acd908db124540e550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b171830d3b781ce1e955be8fdf6b494') in 0.001240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.166670 seconds.
+  path: Assets/japanese-dinner/source/Mirror.obj
+  artifactKey: Guid(6f3e27bd4955545eea5b5116caf50776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/japanese-dinner/source/Mirror.obj using Guid(6f3e27bd4955545eea5b5116caf50776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51542ad2ae731e476c1824cd7cd17d16') in 0.032076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 20.986006 seconds.
+  path: Assets/japanese-dinner/textures
+  artifactKey: Guid(0f432cf41a25d4a4ebd4cd4458fc29b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/japanese-dinner/textures using Guid(0f432cf41a25d4a4ebd4cd4458fc29b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9439e8d408264e4577522887077ce099') in 0.000858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.444742 seconds.
+  path: Assets/japanese-dinner/textures/MirrorT1.png
+  artifactKey: Guid(22f86780395ab494f8ddd04fc858adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/japanese-dinner/textures/MirrorT1.png using Guid(22f86780395ab494f8ddd04fc858adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6b3094d98ee6fad2ec296f4d0102ba') in 0.017646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.232327 seconds.
+  path: Assets/japanese-dinner/textures/New Material.mat
+  artifactKey: Guid(d800f62d3e59a40b6af7c6343a34214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/japanese-dinner/textures/New Material.mat using Guid(d800f62d3e59a40b6af7c6343a34214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bfef5065e1dce7ed923d1e66623c83') in 0.007622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.779790 seconds.
+  path: Assets/japanese-dinner/textures/MirrorT1.png
+  artifactKey: Guid(22f86780395ab494f8ddd04fc858adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/japanese-dinner/textures/MirrorT1.png using Guid(22f86780395ab494f8ddd04fc858adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186ac922d1dcdb5a80b8f47327598e01') in 0.016142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 182.047822 seconds.
+  path: Assets/japanese-dinner/textures/images.jpeg
+  artifactKey: Guid(6f79669319e20491f813f481829694cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/japanese-dinner/textures/images.jpeg using Guid(6f79669319e20491f813f481829694cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf345622414a014aff94206f9c21a5b') in 0.007206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.588890 seconds.
+  path: Assets/WoodWall.mat
+  artifactKey: Guid(8c3e86d64599d4829af807977af6b451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodWall.mat using Guid(8c3e86d64599d4829af807977af6b451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a65efe5967495dfd582782c915d046f') in 0.007427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 118.566276 seconds.
+  path: Assets/unfinished-wood-swatch.jpg
+  artifactKey: Guid(b6ebe5f297c764d4b983cff68778cadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unfinished-wood-swatch.jpg using Guid(b6ebe5f297c764d4b983cff68778cadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad8e1aa29edc0524b9f30e05829c2e7') in 0.019467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1526.602592 seconds.
+  path: Assets/Stone 1.mat
+  artifactKey: Guid(eba88efaad87e4b46a701ce33364ee26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone 1.mat using Guid(eba88efaad87e4b46a701ce33364ee26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39aa3ef386a4b57cc85c9f6541b545c') in 0.018280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 394.483159 seconds.
+  path: Assets/Stone 1.mat
+  artifactKey: Guid(eba88efaad87e4b46a701ce33364ee26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone 1.mat using Guid(eba88efaad87e4b46a701ce33364ee26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670765663f4304657aaecda3f5bc7289') in 0.008736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.849 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.117 seconds
+Domain Reload Profiling: 2967ms
+	BeginReloadAssembly (340ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (477ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2119ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (1093ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3261 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.1 KB). Loaded Objects now: 3796.
+Memory consumption went from 137.4 MB to 137.4 MB.
+Total: 3.179625 ms (FindLiveObjects: 0.192666 ms CreateObjectMapping: 0.081125 ms MarkObjects: 2.841583 ms  DeleteObjects: 0.062458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.734 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.922 seconds
+Domain Reload Profiling: 2657ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (433ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1924ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (1098ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.1 KB). Loaded Objects now: 3799.
+Memory consumption went from 143.8 MB to 143.7 MB.
+Total: 2.827125 ms (FindLiveObjects: 0.235208 ms CreateObjectMapping: 0.084542 ms MarkObjects: 2.453042 ms  DeleteObjects: 0.053375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.750 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.073 seconds
+Domain Reload Profiling: 2824ms
+	BeginReloadAssembly (313ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (456ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2075ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1353ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (1092ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.2 KB). Loaded Objects now: 3802.
+Memory consumption went from 149.8 MB to 149.8 MB.
+Total: 2.848792 ms (FindLiveObjects: 0.206292 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.501500 ms  DeleteObjects: 0.058750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.720 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.033 seconds
+Domain Reload Profiling: 2755ms
+	BeginReloadAssembly (289ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2035ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1306ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (1053ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.1 KB). Loaded Objects now: 3805.
+Memory consumption went from 155.9 MB to 155.8 MB.
+Total: 3.068833 ms (FindLiveObjects: 0.230375 ms CreateObjectMapping: 0.086959 ms MarkObjects: 2.694292 ms  DeleteObjects: 0.056083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.793 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.243 seconds
+Domain Reload Profiling: 3037ms
+	BeginReloadAssembly (340ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (457ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2244ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1416ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (1132ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.1 KB). Loaded Objects now: 3808.
+Memory consumption went from 161.6 MB to 161.5 MB.
+Total: 2.884000 ms (FindLiveObjects: 0.220542 ms CreateObjectMapping: 0.087208 ms MarkObjects: 2.520709 ms  DeleteObjects: 0.054417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 999.648250 seconds.
+  path: Assets/Scripts/AutoWalk.cs
+  artifactKey: Guid(e1ee1ee008c2a40fea687f7a2f691515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AutoWalk.cs using Guid(e1ee1ee008c2a40fea687f7a2f691515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e05b35fff80b00d582e44da9b8cec2c') in 0.004309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.802 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.138 seconds
+Domain Reload Profiling: 2942ms
+	BeginReloadAssembly (317ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (472ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2140ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (1128ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3261 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.0 KB). Loaded Objects now: 3811.
+Memory consumption went from 167.4 MB to 167.4 MB.
+Total: 2.748916 ms (FindLiveObjects: 0.186792 ms CreateObjectMapping: 0.093167 ms MarkObjects: 2.412208 ms  DeleteObjects: 0.055625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.749 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.103 seconds
+Domain Reload Profiling: 2854ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (445ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2105ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (1109ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.1 KB). Loaded Objects now: 3814.
+Memory consumption went from 173.7 MB to 173.7 MB.
+Total: 2.704084 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.079958 ms MarkObjects: 2.394875 ms  DeleteObjects: 0.053292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.759 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.109 seconds
+Domain Reload Profiling: 2870ms
+	BeginReloadAssembly (301ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (444ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2111ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (1131ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.2 KB). Loaded Objects now: 3817.
+Memory consumption went from 179.7 MB to 179.7 MB.
+Total: 2.646541 ms (FindLiveObjects: 0.180666 ms CreateObjectMapping: 0.079500 ms MarkObjects: 2.339000 ms  DeleteObjects: 0.046375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.727 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.840 seconds
+Domain Reload Profiling: 2569ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1842ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (1073ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.1 KB). Loaded Objects now: 3820.
+Memory consumption went from 185.8 MB to 185.7 MB.
+Total: 2.688500 ms (FindLiveObjects: 0.208750 ms CreateObjectMapping: 0.082959 ms MarkObjects: 2.348667 ms  DeleteObjects: 0.047084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.736 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.096 seconds
+Domain Reload Profiling: 2834ms
+	BeginReloadAssembly (295ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (425ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2098ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (1119ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.1 KB). Loaded Objects now: 3823.
+Memory consumption went from 191.8 MB to 191.8 MB.
+Total: 2.580708 ms (FindLiveObjects: 0.185041 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.258958 ms  DeleteObjects: 0.047375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.831 seconds
+Domain Reload Profiling: 2564ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (431ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (1065ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.2 KB). Loaded Objects now: 3826.
+Memory consumption went from 197.8 MB to 197.8 MB.
+Total: 2.561125 ms (FindLiveObjects: 0.192125 ms CreateObjectMapping: 0.085209 ms MarkObjects: 2.236625 ms  DeleteObjects: 0.046166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

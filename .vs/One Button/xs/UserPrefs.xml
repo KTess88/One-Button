@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{A6D81C46-9454-423C-1678-BC7188C24013}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AutoWalk.cs">
+    <Files>
+      <File FileName="Assets/Scripts/AutoWalk.cs" Line="61" Column="6" />
+      <File FileName="Assets/Scripts/SliderKiller.cs" />
+      <File FileName="Assets/Scripts/Winner.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="One Button" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="AutoWalk.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5306c381-50e9-461e-af89-da2d61adc865" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
