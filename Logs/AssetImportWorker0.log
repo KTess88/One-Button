@@ -390,3 +390,134 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6597.853411 seconds.
+  path: Assets/Stone.mat
+  artifactKey: Guid(b4c6398dea5a84d71845652eadcdee85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone.mat using Guid(b4c6398dea5a84d71845652eadcdee85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f603140ae7c03ff50c6dd5e83f2523b') in 0.376317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3804.
+Memory consumption went from 90.9 MB to 90.9 MB.
+Total: 6.021833 ms (FindLiveObjects: 0.239750 ms CreateObjectMapping: 0.087667 ms MarkObjects: 5.669666 ms  DeleteObjects: 0.023334 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3804.
+Memory consumption went from 91.0 MB to 91.0 MB.
+Total: 3.128375 ms (FindLiveObjects: 0.223167 ms CreateObjectMapping: 0.086208 ms MarkObjects: 2.803208 ms  DeleteObjects: 0.014917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.357114 seconds.
+  path: Assets/brick.jpeg
+  artifactKey: Guid(f9262a19159ea47fb8d8fd797cc00185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/brick.jpeg using Guid(f9262a19159ea47fb8d8fd797cc00185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3f8f59d2ef20bc38dbcb95fb76d206') in 0.032622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/highproteindiets_1280px_97576cceb35a44cd86625a4d974aa827.jpeg
+  artifactKey: Guid(9e0a3f6d599fa4046add05157dcb8fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/highproteindiets_1280px_97576cceb35a44cd86625a4d974aa827.jpeg using Guid(9e0a3f6d599fa4046add05157dcb8fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ed3df16efada4d746150939247e110') in 0.051431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/WoodWall.mat
+  artifactKey: Guid(8c3e86d64599d4829af807977af6b451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodWall.mat using Guid(8c3e86d64599d4829af807977af6b451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48419fdaee029fe7cee0166e69896cb') in 0.268792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Stone 1.mat
+  artifactKey: Guid(eba88efaad87e4b46a701ce33364ee26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone 1.mat using Guid(eba88efaad87e4b46a701ce33364ee26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8385908efc3f645276d8d4ddda2a72') in 0.141068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Stone.mat
+  artifactKey: Guid(b4c6398dea5a84d71845652eadcdee85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone.mat using Guid(b4c6398dea5a84d71845652eadcdee85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a33cb76b2b90e14c0dcb7219b332cfc') in 0.006314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Good-sources-of-starch.jpeg
+  artifactKey: Guid(7822f00a8b6da4154b6aea35d1772ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Good-sources-of-starch.jpeg using Guid(7822f00a8b6da4154b6aea35d1772ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485056d9ed905506c0b5fa1c6d458ab0') in 0.012778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/stone.jpg
+  artifactKey: Guid(b6c126f259b7742fe9e4081c6b50b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stone.jpg using Guid(b6c126f259b7742fe9e4081c6b50b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82016c7ba026a744afb6a94a7c4c0703') in 0.006784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/iStock-476096840.jpg
+  artifactKey: Guid(9823c65615a10433194a4ffdd3b5d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iStock-476096840.jpg using Guid(9823c65615a10433194a4ffdd3b5d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc04af51767ec3ab4cb1bbebeee81e91') in 0.012958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/resized-cow-image.jpg
+  artifactKey: Guid(065286e5f11694d318fa8b5edbe1148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resized-cow-image.jpg using Guid(065286e5f11694d318fa8b5edbe1148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5082b69cbc0ab8a5db22963f488d8be8') in 0.010855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.974 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
